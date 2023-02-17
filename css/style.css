@@ -49,8 +49,12 @@ body {
 /* header style */
 
 .header {
+  width: 100%;
+  position: fixed;
   padding: 25px 0;
   border-bottom: 1px solid #E5E5E5;
+  background-color: white;
+  opacity: .9;
 }
 
 .header .container {
@@ -86,9 +90,9 @@ body {
 
 .main {
   margin-bottom: 100px;
-  padding: 104px 0 154px 0;
+  padding: 154px 0 154px 0;
   background-image: url('../img/background.png');
-  background-position: center;
+  background-position: center 50px;
   background-size: cover;
 }
 
@@ -119,6 +123,7 @@ body {
 /* car style */
 
 .car {
+  padding-top: 140px;
   margin-bottom: 100px;
 }
 
