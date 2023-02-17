@@ -118,6 +118,10 @@ body {
 
 /* car style */
 
+.car {
+  margin-bottom: 100px;
+}
+
 .subtitle {
   margin-bottom: 40px;
   font-size: 60px;
@@ -133,16 +137,20 @@ body {
   row-gap: 40px;
 }
 
-.card-item-image {
-  margin-bottom: 15px;
+.card-item {
+  max-width: 384px;
+  text-align: center;
+}
+
+.card-item-image img {
+  vertical-align: bottom;
 }
 
 .car-item-title {
-  margin-bottom: 17px;
+  padding: 15px 0 17px;
   font-size: 24px;
-  font-weight: BOLD;
+  font-weight: bold;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .car-item-info {
@@ -161,16 +169,70 @@ body {
 
 .car-item-text {
   width: 110px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 130%;
 }
 
 .car-item-feature img {
+  vertical-align: bottom;
   margin-bottom: 11px;
 }
 
-/* style */
+.card-item-actions .button {
+  padding: 15px;
+}
+
+/* price style */
+
+.price {
+  overflow: hidden;
+}
+
+.price .container {
+  padding-bottom: 121px;
+  position: relative;
+}
+
+.price .subtitle {
+  margin-bottom: 20px;
+}
+
+.price-text {
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: #5D5D5F;
+}
+
+.price-form {
+  max-width: 344px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.price-input {
+  padding: 22px 18px;
+  background: #FFFFFF;
+  border: 1px solid #5D5D5F;
+  font-size: 16px;
+  color: #000;
+  outline: none;
+}
+
+.price-input::placeholder {
+  color: #5D5D5F;
+}
+
+.price-image {
+  position: absolute;
+  bottom: 0;
+  left: 410px;
+}
 
 /* footer style */
 .footer {
+  border-top: 1px solid #E5E5E5;
   padding: 25px 0;
 }
 
@@ -178,4 +240,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.copyright {
+  font-size: 15px;
+  color: #030305;
 }
