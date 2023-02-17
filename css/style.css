@@ -9,6 +9,8 @@
   font-weight: bold;
 }
 
+/* common style */
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +26,27 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.button {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background: #030305;
+  border: none;
+  transition: background-color .5s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #575757;
+}
+
+/* header style */
 
 .header {
   padding: 25px 0;
@@ -53,4 +76,70 @@ body {
   text-decoration: none;
   font-size: 15px;
   color: #030305;
+}
+
+.menu a:hover {
+  border-bottom: 1px solid #030305;
+}
+
+/* main style */
+
+.main {
+  margin-bottom: 100px;
+  padding: 104px 0 154px 0;
+  background-image: url('../img/background.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.main-info {
+  max-width: 855px;
+}
+
+.main-title {
+  margin-bottom: 40px;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 88px;
+  color: #030305;  
+}
+
+.main-text {
+  max-width: 502px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #030305;
+}
+
+.main-actions {
+  width: 334px;
+}
+
+/* car style */
+
+.subtitle {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.card-items {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
