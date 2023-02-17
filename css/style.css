@@ -130,16 +130,52 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
+  row-gap: 40px;
 }
 
-.features {
+.card-item-image {
+  margin-bottom: 15px;
+}
+
+.car-item-title {
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-weight: BOLD;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.car-item-info {
+  margin-bottom: 13px;
+  padding: 0 12px;
   display: flex;
   justify-content: space-between;
 }
 
-.feature {
+.car-item-feature {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.car-item-text {
+  width: 110px;
+}
+
+.car-item-feature img {
+  margin-bottom: 11px;
+}
+
+/* style */
+
+/* footer style */
+.footer {
+  padding: 25px 0;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
